@@ -296,9 +296,8 @@ h2 {
 .interface__slider {
     position: absolute;
     top: 100px;
-    left: 37.5%;
+    left: 37.7%;
     width: 320px;
-    margin: 0 auto;
 }
 
 .interface__slider img {
@@ -386,13 +385,17 @@ h2 {
 
 .review img {
     border-radius: 50%;
-    margin: 0 50px 75px 0;
+    margin: 60px auto;
 }
 
 .review__text {
     font-size: 12px;
     font-weight: 800;
     text-transform: uppercase;
+}
+
+.slick-prev, .slick-next {
+    display: none;
 }
 
 /* Восьмой экран */
@@ -419,7 +422,8 @@ h2 {
     padding: 4px;
     border: 1px solid #b5b5b6;
     border-radius: 50px;
-    margin-bottom: 75px;
+    margin: 0 auto 75px auto;
+    width: 270px;
 }
 
 .plan__btn_ind, .plan__btn_com {
@@ -513,7 +517,7 @@ h2 {
 }
 
 .plan__card_btn1 {
-    margin-top: 94px;
+    margin-top: 100px;
     padding: 10px 60px;
 }
 
@@ -624,4 +628,475 @@ h2 {
 .footer__link p {
     font-size: 14px;
     color: #b5b5b6;
+}
+
+
+/* Адаптивность */
+
+
+@media (min-width: 0px) and (max-width: 767.98px) {
+
+    h2 {
+        font-size: 32px;
+    }
+    /*Header*/
+    #header {
+        padding-top: 30px;
+    }
+
+    .nav {
+        height: 102px;
+        margin-bottom: 20px;
+    }
+
+    .nav__link a {
+        display: block;
+        margin: 0px;
+    }
+
+    .nav__text {
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .nav__link_2 {
+        display: none;
+    }
+
+    .nav__button {
+        display: none;
+    }
+
+    .header h1 {
+        font-size: 42px;
+    }
+    
+    .header p {
+        font-size: 16px;
+    }
+
+    .header__link {
+        margin-top: 50px;
+    }
+
+    /* time */
+
+    #time {
+        padding: 80px 0;
+    }
+    
+    .time__lock_1 {
+        margin-bottom: 40px;
+    }
+
+    .time__lock__title {
+        margin: 20px 0;
+        font-size: 20px;
+    }
+    
+    .time__lock__text {
+        font-size: 14px;
+    }
+
+    /* protected */
+
+    #protected {
+        padding: 40px 0;
+    }
+
+    .protected img {
+        display: none;
+    }
+
+    .protected h2 {
+        margin-bottom: 40px;
+    }
+    
+    .protected p {
+        font-size: 14px;
+    }
+   
+    /* we */
+
+    #we {
+        padding: 80px 0;
+    }
+
+    .we > img {
+        display: none;
+    }
+
+    .we p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    /* interface */
+    
+    #interface {
+        padding: 70px 0;
+        height: 1000px;
+    }
+
+    .interface__room_bg {
+        width: 97%;
+        left: 5%;
+    }
+
+    .interface__slider {
+        position: absolute;
+        top: 80px;
+        left: 18%;
+        width: 65%;
+    }
+    
+    /* get */
+
+    /* review */
+
+    #review {
+        padding: 60px 0;
+    }
+
+    .review__item p {
+        font-size: 14px;
+    }
+
+    .review__item span {
+        font-size: 22px;
+    }
+
+    /* plan */
+
+    #plan {
+        padding: 80px 0;
+    }
+
+    .plan__btn {
+        margin: 0 auto 35px auto;
+    }
+
+    .plan__text_btn {
+        font-size: 14px;
+    }
+    
+    .plan__text_btn span {
+        font-size: 10px;
+    }
+    
+    .plan__text a {
+        font-size: 10px;
+    }
+    
+    .plan__card_title {
+        font-size: 22px;
+    }
+
+    .plan__card_price {
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+
+    .plan__card_text {
+        font-size: 10px;
+        margin-top: 25px;
+    }
+
+    .plan__card_text span:first-child {
+        font-size: 14px;
+    }
+
+    .plan__card_btn {
+        padding: 10px 40px;
+        font-size: 14px;
+    }
+
+    .plan__card_btn1 {
+        padding: 10px 50px;
+        margin-top: 82px;
+    }
+
+    /* contact */
+
+    #contact {
+        padding: 45px 0;
+    }
+    
+    .contact__text {
+        font-size: 16px;
+    }
+    
+    .contact p {
+        font-size: 14px;
+    }
+
+    .contact__social {
+        margin-bottom: 40px;
+    }
+
+    .contact__link a {
+        font-size: 12px;
+    }
+
+    /* footer */
+
+    .footer__link p {
+        font-size: 10px;
+    }
+    .footer__link a {
+        font-size: 10px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    h2 {
+        font-size: 32px;
+    }
+    /*Header*/
+    #header {
+        padding-top: 30px;
+    }
+
+    .nav {
+        height: 102px;
+        margin-bottom: 20px;
+    }
+
+    .nav__link a {
+        display: block;
+        margin: 0px;
+    }
+
+    .nav__text {
+        text-align: right;
+        font-size: 16px;
+    }
+
+    .nav__link_2 {
+        display: none;
+    }
+
+    .nav__button {
+        font-size: 12px;
+    }
+
+    .nav__button img {
+        top: 20%;
+        left: 20px;
+    }
+
+    .header h1 {
+        font-size: 42px;
+    }
+    
+    .header p {
+        font-size: 16px;
+    }
+
+    /* time */
+    /* protected */
+
+    #protected {
+        padding: 40px 0;
+    }
+
+    .protected img {
+        width: 50%;
+    }
+   
+    /* we */
+
+    #we {
+        padding: 80px 0;
+    }
+
+    .we > img {
+        width: 50%;
+        top: 25%;
+    }
+
+    .we h2 {
+        margin-bottom: 45px;
+    }
+
+    .we p {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+
+    /* interface */
+
+    .interface__room_bg {
+        left: 17%;
+    }
+
+    .interface__slider {
+        left: 26.5%;
+    }
+    
+    /* get */
+
+    /* review */
+
+    #review {
+        padding: 60px 0;
+    }
+
+    .review__item p {
+        font-size: 14px;
+    }
+
+    .review__item span {
+        font-size: 22px;
+    }
+
+    /* plan */
+
+    #plan {
+        padding: 80px 0;
+    }
+
+    .plan__btn {
+        margin: 0 auto 35px auto;
+    }
+
+    .plan__text_btn {
+        font-size: 14px;
+    }
+    
+    .plan__text_btn span {
+        font-size: 10px;
+    }
+    
+    .plan__text a {
+        font-size: 10px;
+    }
+    
+    .plan__card_title {
+        font-size: 22px;
+    }
+
+    .plan__card_price {
+        padding: 5px 10px;
+        font-size: 8px;
+    }
+
+    .plan__card_text {
+        font-size: 10px;
+        margin-top: 25px;
+    }
+
+    .plan__card_text span:first-child {
+        font-size: 14px;
+    }
+
+    .plan__card_btn {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+
+    .plan__card_btn1 {
+        padding: 10px 40px;
+        margin-top: 62px;
+    }
+
+    /* contact */
+
+    #contact {
+        padding: 45px 0;
+    }
+    
+    .contact__text {
+        font-size: 16px;
+    }
+    
+    .contact p {
+        font-size: 14px;
+    }
+
+    .contact__social {
+        margin-bottom: 40px;
+    }
+
+    .contact__link a {
+        font-size: 12px;
+    }
+
+    /* footer */
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    /*Header*/
+    /* time */
+    /* protected */
+
+    #protected {
+        padding: 40px 0;
+    }
+
+    .protected img {
+        width: 50%;
+    }
+   
+    /* we */
+
+    .we > img {
+        width: 55%;
+        top: 35%;
+    }
+
+    /* interface */
+
+    .interface__room_bg {
+        left: 25%;
+    }
+
+    .interface__slider {
+        left: 32.2%;
+    }
+    
+    /* get */
+    /* review */
+    /* plan */
+    /* contact */
+    /* footer */
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+   /*Header*/
+    /* time */
+    /* protected */
+
+    .protected img {
+        top: 12%;
+        width: 60%;
+    }
+   
+    /* we */
+
+    .we > img {
+        width: 55%;
+        top: 35%;
+    }
+
+    /* interface */
+
+    .interface__room_bg {
+        left: 29.5%;
+    }
+
+    .interface__slider {
+        left: 35.5%;
+    }
+    
+    /* get */
+    /* review */
+    /* plan */
+    /* contact */
+    /* footer */
+    
 }
